@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "./base";
+@import url("https://fonts.cdnfonts.com/css/alodiya");
+
+html {
+    font-family: 'Alodiya'
+}

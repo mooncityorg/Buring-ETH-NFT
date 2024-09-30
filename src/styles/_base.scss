@@ -1,0 +1,40 @@
+:root {
+  --mc1: #01a3f4;
+  --mc2: #feeb1a;
+  --hc: #fff;
+  --bc: #fff;
+  --hff: 'Heebo', sans-serif;
+  --bff: 'Nunito', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+html {
+  font-family: 'Orbitron', sans-serif;
+  background-color: black;
+}
+
+.ReactModal__Content {
+  align-items: center !important;
+  justify-content: space-between !important;
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.container {
+  // background-image: url('/img/homeBackground.png') !important;
+  background: black;
+  width: 100% !important;
+  max-width: 100%;
+  background-size: cover !important;
+  background-position: center;
+  position: relative;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.bg-black {
+  background-color: black !important;
+}
